@@ -1,0 +1,106 @@
+body {
+    font-family: Arial;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: gray;
+}
+
+form {
+    margin: auto;
+    width: 300px;
+    background-color: gray;
+    padding: 25px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin: 10px 5 10px;
+    text-align: left;
+    color: white;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+}
+
+form button:hover {
+    background-color: green;
+}
+
+
+
+
+.student-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.student-table th {
+    background-color: #4CAF50;
+    color: black;
+}
+ 
+.student-table td {
+    color: black;
+}
